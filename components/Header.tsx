@@ -27,7 +27,7 @@ const Header = () => {
     duration-300 fixed max-w-[1920px] top-0  w-full bg-primary-200 h-[100px] z-50`}>
       <div className="container mx-auto h-full flex items-center justify-between ">
         <Link href='/'>
-          <Image src={img} width={117} height={55} />
+          <Image src={img} width={117} height={55} alt="logo" />
         </Link>
         <MobileNav containerStyle={`${headerActive ? 'top-[90px]' : 'top-[124px]'}
         ${openNav ? 'max-h-max pt-8 pb-10 border-t border-white/10' : 'max-h-0 pt-0 pb-0 overflow-hidden border-white/0'}
